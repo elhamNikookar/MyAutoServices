@@ -242,7 +242,7 @@ namespace MyAutoServices.Data.Migrations
 
                     b.HasKey("ID");
 
-                    b.ToTable("ServiceTypes");
+                    b.ToTable("ServiceTypes", (string)null);
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
