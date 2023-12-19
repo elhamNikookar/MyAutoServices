@@ -14,6 +14,8 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.WebUtilities;
 using Microsoft.Extensions.Logging;
 using MyAutoService.Models;
+using MyAutoService.Utilities;
+using MyAutoServices.Data;
 
 namespace MyAutoService.Areas.Identity.Pages.Account
 {
@@ -24,17 +26,23 @@ namespace MyAutoService.Areas.Identity.Pages.Account
         private readonly UserManager<IdentityUser> _userManager;
         private readonly ILogger<RegisterModel> _logger;
         private readonly IEmailSender _emailSender;
+        private readonly RoleManager<IdentityRole> _roleManager;   
+        private readonly ApplicationDbContext _context;
 
         public RegisterModel(
             UserManager<IdentityUser> userManager,
             SignInManager<IdentityUser> signInManager,
             ILogger<RegisterModel> logger,
-            IEmailSender emailSender)
+            IEmailSender emailSender,
+            RoleManager<IdentityRole> roleManager,
+            ApplicationDbContext context)
         {
             _userManager = userManager;
             _signInManager = signInManager;
             _logger = logger;
             _emailSender = emailSender;
+            _roleManager = roleManager;
+            _context = context;
         }
 
         [BindProperty]
@@ -80,13 +88,13 @@ namespace MyAutoService.Areas.Identity.Pages.Account
             public string? PostalCode { get; set; }
         }
 
-        public async Task OnGetAsync(string returnUrl = null)
+        public async Task OnGetAsync(string? returnUrl = null)
         {
             ReturnUrl = returnUrl;
             ExternalLogins = (await _signInManager.GetExternalAuthenticationSchemesAsync()).ToList();
         }
 
-        public async Task<IActionResult> OnPostAsync(string returnUrl = null)
+        public async Task<IActionResult> OnPostAsync(string? returnUrl = null)
         {
             returnUrl ??= Url.Content("~/");
             ExternalLogins = (await _signInManager.GetExternalAuthenticationSchemesAsync()).ToList();
@@ -104,6 +112,14 @@ namespace MyAutoService.Areas.Identity.Pages.Account
                 var result = await _userManager.CreateAsync(user, Input.Password);
                 if (result.Succeeded)
                 {
+
+                    if(!await _roleManager.RoleExistsAsync(SD.AdminEndUser))
+                        await _roleManager.CreateAsync(new IdentityRole(SD.AdminEndUser));
+                    if (!await _roleManager.RoleExistsAsync(SD.CustomerEndUser))
+                        await _roleManager.CreateAsync(new IdentityRole(SD.CustomerEndUser));
+                    
+                    await _userManager.AddToRoleAsync(user, SD.AdminEndUser);
+                    //////
                     _logger.LogInformation("User created a new account with password.");
                     //send confirm email
                     var code = await _userManager.GenerateEmailConfirmationTokenAsync(user);
@@ -114,8 +130,8 @@ namespace MyAutoService.Areas.Identity.Pages.Account
                         values: new { area = "Identity", userId = user.Id, code = code, returnUrl = returnUrl },
                         protocol: Request.Scheme);
 
-                    await _emailSender.SendEmailAsync(Input.Email, "Confirm your email",
-                        $"Please confirm your account by <a href='{HtmlEncoder.Default.Encode(callbackUrl)}'>clicking here</a>.");
+                    await _emailSender.SendEmailAsync(Input.Email, "فعال سازی حساب کاربری",
+                        $"جهت فعال سازی حساب کاربری بر روی لینک کلیک کنید. <a href='{HtmlEncoder.Default.Encode(callbackUrl)}'>فعال سازی</a>.");
 
                     if (_userManager.Options.SignIn.RequireConfirmedAccount)
                     {
