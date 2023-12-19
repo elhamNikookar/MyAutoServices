@@ -13,7 +13,7 @@ namespace MyAutoService.Utilities
         {
             MailMessage mail = new MailMessage();
             SmtpClient SmtpServer = new SmtpClient("smtp.gmail.com");
-            mail.From = new MailAddress("testtitoplearn@gmail.com");
+            mail.From = new MailAddress("pinkgholam@gmail.com");
             mail.To.Add(email);
             mail.Subject = subject;
             mail.Body = htmlMessage;
@@ -24,7 +24,7 @@ namespace MyAutoService.Utilities
             // mail.Attachments.Add(attachment);
 
             SmtpServer.Port = 587;
-            SmtpServer.Credentials = new System.Net.NetworkCredential("testtitoplearn@gmail.com", "TopE34@54Im");
+            SmtpServer.Credentials = new System.Net.NetworkCredential("pinkgholam@gmail.com", "ForYoutube123");
             SmtpServer.EnableSsl = true;
 
             SmtpServer.Send(mail);

@@ -1,0 +1,75 @@
+﻿@page
+@model MyAutoService.Pages.Users.IndexModel
+@{
+}
+<form>
+    <div class="border" style="background-color: white">
+        <div class="row p-3">
+            <div class="col-6">
+                <h2 class="text-info">لیست مشتری های ما</h2>
+            </div>
+            <div class="col-6 text-right">
+                <a asp-page="/Account/Register" asp-area="Identity" class="btn btn-info">
+                    افزودن مشتری جدید
+                    <i class="fas fa-plus fa-sm"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="border">
+        <br />
+        <div>
+            @if (Model.ApplicationUserList.Count > 0)
+            {
+                <table class="table table-striped border">
+                    <tr class="table-secondary">
+                        <th>
+                            @Html.DisplayNameFor(m => m.ApplicationUserList[0].Name)
+
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(m => m.ApplicationUserList[0].PhoneNumber)
+
+                        </th>
+                        <th>
+
+                            @Html.DisplayNameFor(m => m.ApplicationUserList[0].Email)
+                        </th>
+                        <th></th>
+                    </tr>
+                    @foreach (var user in Model.ApplicationUserList)
+                    {
+                        <tr>
+                            <td>
+                                @user.Name
+                            </td>
+                            <td>
+                                @user.PhoneNumber
+                            </td>
+                            <td>
+                                @user.Email
+                            </td>
+                            <td style="width: 150px">
+                                <div class="btn-group" role="group">
+                                    <a class="btn btn-outline-primary" asp-page="Edit" asp-route-Id="@user.Id">
+                                        <i class="fas fa-edit fa-sm"></i>
+                                    </a>
+                                    <a class="btn btn-outline-success" asp-page="Details" asp-route-Id="@user.Id">
+                                        <i class="fas fa-list-alt fa-sm"></i>
+                                    </a>
+                                    <a class="btn btn-outline-danger" asp-page="Delete" asp-route-Id="@user.Id">
+                                        <i class="fas fa-trash fa-sm"></i>
+                                    </a>
+                                </div>
+                            </td>
+                        </tr>
+                    }
+                </table>
+            }
+            else
+            {
+                <div>کاربری یافت نشد</div>
+            }
+        </div>
+    </div>
+</form>
