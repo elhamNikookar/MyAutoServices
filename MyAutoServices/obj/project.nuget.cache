@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qfjItf1GOJnsKTXiLicxAGOfs1L/LP/PwqhaYgIgLLOv6Nap4JDT5p/okCpnu6YW3NyBWOODRCjeQUvuMWurRg==",
+  "dgSpecHash": "ltG1yCSWgeDcCZ1Ab//ZXGX4SX7EPbfiykysPeSrRlTLe03iscLU5IXk4TCXCyuZk5EIKtbY0dgay8KwQk7g/A==",
   "success": true,
-  "projectFilePath": "D:\\Elham\\Train\\C#\\MyAutoServices\\MyAutoServices\\MyAutoServices.csproj",
+  "projectFilePath": "D:\\Elham\\Train\\C#\\MyAutoServices\\MyAutoServices\\MyAutoService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Zenbook\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\Zenbook\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

@@ -1,7 +1,7 @@
 ﻿using MessagePack;
 using System.ComponentModel.DataAnnotations;
 
-namespace MyAutoServices.Models
+namespace MyAutoService.Models
 {
     public class ServiceType
     {

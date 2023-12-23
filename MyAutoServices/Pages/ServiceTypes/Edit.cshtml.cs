@@ -6,10 +6,10 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using MyAutoServices.Data;
-using MyAutoServices.Models;
+using MyAutoService.Data;
+using MyAutoService.Models;
 
-namespace MyAutoServices.Pages.ServiceTypes
+namespace MyAutoService.Pages.ServiceTypes
 {
     public class EditModel : PageModel
     {
@@ -17,9 +17,9 @@ namespace MyAutoServices.Pages.ServiceTypes
         [BindProperty]
         public ServiceType ServiceType { get; set; } = default!;
 
-        private readonly MyAutoServices.Data.ApplicationDbContext _context;
+        private readonly MyAutoService.Data.ApplicationDbContext _context;
 
-        public EditModel(MyAutoServices.Data.ApplicationDbContext context)
+        public EditModel(MyAutoService.Data.ApplicationDbContext context)
         {
             _context = context;
         }

@@ -1,8 +1,8 @@
 {
   "Files": [
     {
-      "Id": "D:\\Elham\\Train\\C#\\MyAutoServices\\MyAutoServices\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\MyAutoServices.bundle.scp.css",
-      "PackagePath": "staticwebassets\\MyAutoServices.bundle.scp.css"
+      "Id": "D:\\Elham\\Train\\C#\\MyAutoServices\\MyAutoServices\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\MyAutoService.bundle.scp.css",
+      "PackagePath": "staticwebassets\\MyAutoService.bundle.scp.css"
     },
     {
       "Id": "D:\\Elham\\Train\\C#\\MyAutoServices\\MyAutoServices\\wwwroot\\css\\site.css",
@@ -245,20 +245,20 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.MyAutoServices.Microsoft.AspNetCore.StaticWebAssets.props",
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.MyAutoService.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
     {
-      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.MyAutoServices.props",
-      "PackagePath": "build\\MyAutoServices.props"
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.MyAutoService.props",
+      "PackagePath": "build\\MyAutoService.props"
     },
     {
-      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.MyAutoServices.props",
-      "PackagePath": "buildMultiTargeting\\MyAutoServices.props"
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.MyAutoService.props",
+      "PackagePath": "buildMultiTargeting\\MyAutoService.props"
     },
     {
-      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.MyAutoServices.props",
-      "PackagePath": "buildTransitive\\MyAutoServices.props"
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.MyAutoService.props",
+      "PackagePath": "buildTransitive\\MyAutoService.props"
     }
   ],
   "ElementsToRemove": []

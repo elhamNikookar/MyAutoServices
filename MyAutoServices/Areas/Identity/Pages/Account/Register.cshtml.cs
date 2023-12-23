@@ -1,10 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
+﻿
 using System.ComponentModel.DataAnnotations;
-using System.Linq;
+
 using System.Text;
-using System.Text.Encodings.Web;
-using System.Threading.Tasks;
+
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
@@ -12,10 +10,9 @@ using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.WebUtilities;
-using Microsoft.Extensions.Logging;
 using MyAutoService.Models;
+using MyAutoService.Data;
 using MyAutoService.Utilities;
-using MyAutoServices.Data;
 
 namespace MyAutoService.Areas.Identity.Pages.Account
 {
@@ -26,7 +23,7 @@ namespace MyAutoService.Areas.Identity.Pages.Account
         private readonly UserManager<IdentityUser> _userManager;
         private readonly ILogger<RegisterModel> _logger;
         private readonly IEmailSender _emailSender;
-        private readonly RoleManager<IdentityRole> _roleManager;   
+        private readonly RoleManager<IdentityRole> _roleManager;
         private readonly ApplicationDbContext _context;
 
         public RegisterModel(
@@ -113,12 +110,12 @@ namespace MyAutoService.Areas.Identity.Pages.Account
                 if (result.Succeeded)
                 {
 
-                    if(!await _roleManager.RoleExistsAsync(SD.AdminEndUser))
+                    if (!await _roleManager.RoleExistsAsync(SD.AdminEndUser))
                         await _roleManager.CreateAsync(new IdentityRole(SD.AdminEndUser));
                     if (!await _roleManager.RoleExistsAsync(SD.CustomerEndUser))
                         await _roleManager.CreateAsync(new IdentityRole(SD.CustomerEndUser));
-                    
-                    await _userManager.AddToRoleAsync(user, SD.AdminEndUser);
+
+                    await _userManager.AddToRoleAsync(user, SD.CustomerEndUser);
                     //////
                     _logger.LogInformation("User created a new account with password.");
                     //send confirm email
@@ -129,9 +126,9 @@ namespace MyAutoService.Areas.Identity.Pages.Account
                         pageHandler: null,
                         values: new { area = "Identity", userId = user.Id, code = code, returnUrl = returnUrl },
                         protocol: Request.Scheme);
-
-                    await _emailSender.SendEmailAsync(Input.Email, "فعال سازی حساب کاربری",
-                        $"جهت فعال سازی حساب کاربری بر روی لینک کلیک کنید. <a href='{HtmlEncoder.Default.Encode(callbackUrl)}'>فعال سازی</a>.");
+                    //I should fix this problem.
+                    //await _emailSender.SendEmailAsync(Input.Email, "فعال سازی حساب کاربری",
+                    //    $"جهت فعال سازی حساب کاربری بر روی لینک کلیک کنید. <a href='{HtmlEncoder.Default.Encode(callbackUrl)}'>فعال سازی</a>.");
 
                     if (_userManager.Options.SignIn.RequireConfirmedAccount)
                     {

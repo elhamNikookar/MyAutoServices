@@ -5,16 +5,16 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
-using MyAutoServices.Data;
-using MyAutoServices.Models;
+using MyAutoService.Data;
+using MyAutoService.Models;
 
-namespace MyAutoServices.Pages.ServiceTypes
+namespace MyAutoService.Pages.ServiceTypes
 {
     public class DetailsModel : PageModel
     {
-        private readonly MyAutoServices.Data.ApplicationDbContext _context;
+        private readonly MyAutoService.Data.ApplicationDbContext _context;
 
-        public DetailsModel(MyAutoServices.Data.ApplicationDbContext context)
+        public DetailsModel(MyAutoService.Data.ApplicationDbContext context)
         {
             _context = context;
         }

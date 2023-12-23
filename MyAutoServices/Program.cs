@@ -2,7 +2,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.EntityFrameworkCore;
 using MyAutoService.Utilities;
-using MyAutoServices.Data;
+using MyAutoService.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 

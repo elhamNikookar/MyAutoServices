@@ -1,9 +1,8 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using MyAutoService.Models;
-using MyAutoServices.Models;
 
-namespace MyAutoServices.Data
+namespace MyAutoService.Data
 {
     public class ApplicationDbContext : IdentityDbContext
     {

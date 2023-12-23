@@ -1,10 +1,10 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
-using MyAutoServices.Data;
-using MyAutoServices.Models;
+using MyAutoService.Data;
+using MyAutoService.Models;
 
-namespace MyAutoServices.Pages.ServiceTypes
+namespace MyAutoService.Pages.ServiceTypes
 {
     public class IndexModel : PageModel
     {

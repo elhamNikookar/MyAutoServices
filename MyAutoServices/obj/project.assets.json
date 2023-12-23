@@ -11501,9 +11501,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Elham\\Train\\C#\\MyAutoServices\\MyAutoServices\\MyAutoServices.csproj",
-      "projectName": "MyAutoServices",
-      "projectPath": "D:\\Elham\\Train\\C#\\MyAutoServices\\MyAutoServices\\MyAutoServices.csproj",
+      "projectUniqueName": "D:\\Elham\\Train\\C#\\MyAutoServices\\MyAutoServices\\MyAutoService.csproj",
+      "projectName": "MyAutoService",
+      "projectPath": "D:\\Elham\\Train\\C#\\MyAutoServices\\MyAutoServices\\MyAutoService.csproj",
       "packagesPath": "C:\\Users\\Zenbook\\.nuget\\packages\\",
       "outputPath": "D:\\Elham\\Train\\C#\\MyAutoServices\\MyAutoServices\\obj\\",
       "projectStyle": "PackageReference",
