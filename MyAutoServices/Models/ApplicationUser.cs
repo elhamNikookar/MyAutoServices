@@ -16,7 +16,7 @@ namespace MyAutoService.Models
 
 
         [Display(Name = "آدرس")]
-        public string Address { get; set; }
+        public string? Address { get; set; }
 
 
         [Display(Name = "شهر")]
@@ -37,7 +37,7 @@ namespace MyAutoService.Models
         }
 
         [Display(Name = "تلفن")]
-        public override string PhoneNumber
+        public override string? PhoneNumber
         {
             get { return base.PhoneNumber; }
             set { base.PhoneNumber = value; }

@@ -7,9 +7,11 @@ using MyAutoService.Data;
 using MyAutoService.Models;
 using MyAutoService.Models.ViewModels;
 using System.Text;
+using Microsoft.AspNetCore.Authorization;
 
 namespace MyAutoService.Pages.Users
 {
+    [Authorize(Roles = SD.AdminEndUser)]
     public class IndexModel : PageModel
     {
         private readonly ApplicationDbContext _context;
