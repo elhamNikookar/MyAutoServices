@@ -7,5 +7,7 @@ namespace MyAutoService.Utilities
         public const string AdminEndUser = "Admin";
         public const string CustomerEndUser = "Customer";
         public const int PagingUserCount = 2;
+        public const string DefaultCarImage = "Car-Default.jpg";
+
     }
 }

@@ -5,6 +5,26 @@
       "PackagePath": "staticwebassets\\MyAutoService.bundle.scp.css"
     },
     {
+      "Id": "D:\\Elham\\Train\\C#\\MyAutoServices\\MyAutoServices\\wwwroot\\CarImages\\Car-Default.jpg",
+      "PackagePath": "staticwebassets\\CarImages\\Car-Default.jpg"
+    },
+    {
+      "Id": "D:\\Elham\\Train\\C#\\MyAutoServices\\MyAutoServices\\wwwroot\\CarImages\\f8ddb4d8-83b7-4889-a5ca-f708b687c48c.jpg",
+      "PackagePath": "staticwebassets\\CarImages\\f8ddb4d8-83b7-4889-a5ca-f708b687c48c.jpg"
+    },
+    {
+      "Id": "D:\\Elham\\Train\\C#\\MyAutoServices\\MyAutoServices\\wwwroot\\Images\\1.jpg",
+      "PackagePath": "staticwebassets\\Images\\1.jpg"
+    },
+    {
+      "Id": "D:\\Elham\\Train\\C#\\MyAutoServices\\MyAutoServices\\wwwroot\\Images\\2.jpg",
+      "PackagePath": "staticwebassets\\Images\\2.jpg"
+    },
+    {
+      "Id": "D:\\Elham\\Train\\C#\\MyAutoServices\\MyAutoServices\\wwwroot\\Images\\3.jpg",
+      "PackagePath": "staticwebassets\\Images\\3.jpg"
+    },
+    {
       "Id": "D:\\Elham\\Train\\C#\\MyAutoServices\\MyAutoServices\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

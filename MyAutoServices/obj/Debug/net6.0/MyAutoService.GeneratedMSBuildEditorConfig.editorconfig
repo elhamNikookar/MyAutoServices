@@ -176,6 +176,22 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Elham/Train/C\#/MyAutoServices/MyAutoServices/Pages/Cars/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2Fyc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Elham/Train/C\#/MyAutoServices/MyAutoServices/Pages/Cars/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2Fyc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Elham/Train/C\#/MyAutoServices/MyAutoServices/Pages/Cars/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2Fyc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Elham/Train/C\#/MyAutoServices/MyAutoServices/Pages/Cars/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2Fyc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Elham/Train/C\#/MyAutoServices/MyAutoServices/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -186,6 +202,18 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/Elham/Train/C\#/MyAutoServices/MyAutoServices/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Elham/Train/C\#/MyAutoServices/MyAutoServices/Pages/Services/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VydmljZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Elham/Train/C\#/MyAutoServices/MyAutoServices/Pages/Services/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VydmljZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Elham/Train/C\#/MyAutoServices/MyAutoServices/Pages/Services/History.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VydmljZXNcSGlzdG9yeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Elham/Train/C\#/MyAutoServices/MyAutoServices/Pages/ServiceTypes/Create.cshtml]
@@ -206,6 +234,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/Elham/Train/C\#/MyAutoServices/MyAutoServices/Pages/ServiceTypes/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VydmljZVR5cGVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Elham/Train/C\#/MyAutoServices/MyAutoServices/Pages/Shared/Components/LoggedInUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXENvbXBvbmVudHNcTG9nZ2VkSW5Vc2VyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Elham/Train/C\#/MyAutoServices/MyAutoServices/Pages/Shared/_CookieConsentPartial.cshtml]

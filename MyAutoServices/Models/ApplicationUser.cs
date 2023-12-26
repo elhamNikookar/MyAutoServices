@@ -43,5 +43,7 @@ namespace MyAutoService.Models
             set { base.PhoneNumber = value; }
         }
 
+
+        public virtual List<Car> Cars { get; set; } = new List<Car>();
     }
 }
