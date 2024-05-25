@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ltG1yCSWgeDcCZ1Ab//ZXGX4SX7EPbfiykysPeSrRlTLe03iscLU5IXk4TCXCyuZk5EIKtbY0dgay8KwQk7g/A==",
+  "dgSpecHash": "ZQg67rIXN5ujNHKblMsxSeEK1eCMp82/46DoLFHuzSdEeQGEmglnHh12Cr7qU2cwcwHt+4LBE64G4nn7BbIxhQ==",
   "success": true,
   "projectFilePath": "D:\\Elham\\Train\\C#\\MyAutoServices\\MyAutoServices\\MyAutoService.csproj",
   "expectedPackageFiles": [
@@ -235,7 +235,11 @@
     "C:\\Users\\Zenbook\\.nuget\\packages\\system.threading.timer\\4.3.0\\system.threading.timer.4.3.0.nupkg.sha512",
     "C:\\Users\\Zenbook\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512",
     "C:\\Users\\Zenbook\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
-    "C:\\Users\\Zenbook\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512"
+    "C:\\Users\\Zenbook\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
+    "C:\\Users\\Zenbook\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.30\\microsoft.windowsdesktop.app.ref.6.0.30.nupkg.sha512",
+    "C:\\Users\\Zenbook\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.30\\microsoft.netcore.app.ref.6.0.30.nupkg.sha512",
+    "C:\\Users\\Zenbook\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.30\\microsoft.aspnetcore.app.ref.6.0.30.nupkg.sha512",
+    "C:\\Users\\Zenbook\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.30\\microsoft.netcore.app.host.win-x64.6.0.30.nupkg.sha512"
   ],
   "logs": []
 }

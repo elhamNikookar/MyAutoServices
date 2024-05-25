@@ -104,7 +104,10 @@ namespace MyAutoService.Areas.Identity.Pages.Account
                     Name = Input.Name,
                     Address = Input.Address,
                     City = Input.City,
-                    PostalCode = Input.PostalCode
+                    PostalCode = Input.PostalCode,
+
+                    //email confirm
+                    EmailConfirmed = true
                 };
                 var result = await _userManager.CreateAsync(user, Input.Password);
                 if (result.Succeeded)
@@ -115,12 +118,18 @@ namespace MyAutoService.Areas.Identity.Pages.Account
                     if (!await _roleManager.RoleExistsAsync(SD.CustomerEndUser))
                         await _roleManager.CreateAsync(new IdentityRole(SD.CustomerEndUser));
 
-                    await _userManager.AddToRoleAsync(user, SD.AdminEndUser);
+                    //await _userManager.AddToRoleAsync(user, SD.AdminEndUser);
 
-                    //await _userManager.AddToRoleAsync(user, SD.CustomerEndUser);
+                    await _userManager.AddToRoleAsync(user, SD.CustomerEndUser);
                     //////
                     _logger.LogInformation("User created a new account with password.");
+
+
                     //send confirm email
+
+
+
+
                     var code = await _userManager.GenerateEmailConfirmationTokenAsync(user);
                     code = WebEncoders.Base64UrlEncode(Encoding.UTF8.GetBytes(code));
                     var callbackUrl = Url.Page(
@@ -131,6 +140,10 @@ namespace MyAutoService.Areas.Identity.Pages.Account
                     //I should fix this problem.
                     //await _emailSender.SendEmailAsync(Input.Email, "فعال سازی حساب کاربری",
                     //    $"جهت فعال سازی حساب کاربری بر روی لینک کلیک کنید. <a href='{HtmlEncoder.Default.Encode(callbackUrl)}'>فعال سازی</a>.");
+
+
+                    
+
 
                     if (_userManager.Options.SignIn.RequireConfirmedAccount)
                     {

@@ -36,6 +36,12 @@ builder.Services.ConfigureApplicationCookie(option =>
 builder.Services.AddControllersWithViews();
 builder.Services.AddRazorPages();
 
+//just for log and test
+//builder.Services.AddHttpLogging(httplog =>
+//{
+//    httplog.LoggingFields = Microsoft.AspNetCore.HttpLogging.HttpLoggingFields.All;
+//});
+
 
 builder.Services.AddTransient<IEmailSender, EmailSender>();
 
@@ -53,6 +59,8 @@ else
     app.UseHsts();
 }
 
+
+app.UseHttpLogging();
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 

@@ -278,9 +278,10 @@ D:\Elham\Train\C#\MyAutoServices\MyAutoServices\obj\Debug\net6.0\staticwebassets
 D:\Elham\Train\C#\MyAutoServices\MyAutoServices\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
 D:\Elham\Train\C#\MyAutoServices\MyAutoServices\obj\Debug\net6.0\scopedcss\bundle\MyAutoService.styles.css
 D:\Elham\Train\C#\MyAutoServices\MyAutoServices\obj\Debug\net6.0\scopedcss\projectbundle\MyAutoService.bundle.scp.css
-D:\Elham\Train\C#\MyAutoServices\MyAutoServices\obj\Debug\net6.0\MyAutoService.csproj.CopyComplete
 D:\Elham\Train\C#\MyAutoServices\MyAutoServices\obj\Debug\net6.0\MyAutoService.dll
 D:\Elham\Train\C#\MyAutoServices\MyAutoServices\obj\Debug\net6.0\refint\MyAutoService.dll
 D:\Elham\Train\C#\MyAutoServices\MyAutoServices\obj\Debug\net6.0\MyAutoService.pdb
 D:\Elham\Train\C#\MyAutoServices\MyAutoServices\obj\Debug\net6.0\MyAutoService.genruntimeconfig.cache
 D:\Elham\Train\C#\MyAutoServices\MyAutoServices\obj\Debug\net6.0\ref\MyAutoService.dll
+D:\Elham\Train\C#\MyAutoServices\MyAutoServices\obj\Debug\net6.0\MyAutoService.sourcelink.json
+D:\Elham\Train\C#\MyAutoServices\MyAutoServices\obj\Debug\net6.0\MyAutoSe.040078F8.Up2Date
