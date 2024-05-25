@@ -3,18 +3,6 @@
   "WorkspaceRootPath": "D:\\Elham\\Train\\C#\\MyAutoServices\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9538EB99-8A8C-46E0-9B71-BCC82002B0F1}|MyAutoServices\\MyAutoService.csproj|d:\\elham\\train\\c#\\myautoservices\\myautoservices\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9538EB99-8A8C-46E0-9B71-BCC82002B0F1}|MyAutoServices\\MyAutoService.csproj|solutionrelative:myautoservices\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9538EB99-8A8C-46E0-9B71-BCC82002B0F1}|MyAutoServices\\MyAutoService.csproj|d:\\elham\\train\\c#\\myautoservices\\myautoservices\\pages\\servicetypes\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9538EB99-8A8C-46E0-9B71-BCC82002B0F1}|MyAutoServices\\MyAutoService.csproj|solutionrelative:myautoservices\\pages\\servicetypes\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9538EB99-8A8C-46E0-9B71-BCC82002B0F1}|MyAutoServices\\MyAutoService.csproj|d:\\elham\\train\\c#\\myautoservices\\myautoservices\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{9538EB99-8A8C-46E0-9B71-BCC82002B0F1}|MyAutoServices\\MyAutoService.csproj|solutionrelative:myautoservices\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9538EB99-8A8C-46E0-9B71-BCC82002B0F1}|MyAutoServices\\MyAutoService.csproj|d:\\elham\\train\\c#\\myautoservices\\myautoservices\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{9538EB99-8A8C-46E0-9B71-BCC82002B0F1}|MyAutoServices\\MyAutoService.csproj|solutionrelative:myautoservices\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
@@ -26,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,54 +26,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Create.cshtml.cs",
-              "DocumentMoniker": "D:\\Elham\\Train\\C#\\MyAutoServices\\MyAutoServices\\Pages\\ServiceTypes\\Create.cshtml.cs",
-              "RelativeDocumentMoniker": "MyAutoServices\\Pages\\ServiceTypes\\Create.cshtml.cs",
-              "ToolTip": "D:\\Elham\\Train\\C#\\MyAutoServices\\MyAutoServices\\Pages\\ServiceTypes\\Create.cshtml.cs",
-              "RelativeToolTip": "MyAutoServices\\Pages\\ServiceTypes\\Create.cshtml.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAYwBAAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-25T09:04:58.192Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "additional-methods.js",
-              "DocumentMoniker": "D:\\Elham\\Train\\C#\\MyAutoServices\\MyAutoServices\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
-              "RelativeDocumentMoniker": "MyAutoServices\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
-              "ToolTip": "D:\\Elham\\Train\\C#\\MyAutoServices\\MyAutoServices\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
-              "RelativeToolTip": "MyAutoServices\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
-              "ViewState": "AQIAALAAAAAAAAAAAAAAALAAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-05-25T09:04:57.187Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Register.cshtml.cs",
-              "DocumentMoniker": "D:\\Elham\\Train\\C#\\MyAutoServices\\MyAutoServices\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "RelativeDocumentMoniker": "MyAutoServices\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "ToolTip": "D:\\Elham\\Train\\C#\\MyAutoServices\\MyAutoServices\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "RelativeToolTip": "MyAutoServices\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "ViewState": "AQIAAF4AAAAAAAAAAAAhwG0AAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-25T08:56:15.505Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\Elham\\Train\\C#\\MyAutoServices\\MyAutoServices\\appsettings.json",
               "RelativeDocumentMoniker": "MyAutoServices\\appsettings.json",
               "ToolTip": "D:\\Elham\\Train\\C#\\MyAutoServices\\MyAutoServices\\appsettings.json",
               "RelativeToolTip": "MyAutoServices\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-25T08:49:26.831Z",
+              "WhenOpened": "2024-05-25T10:10:32.695Z",
               "EditorCaption": ""
             }
           ]
